@@ -5,38 +5,44 @@ html {
     padding: 0;
 }
 
-header {
-    background-color: #0A316C ;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding:10px, 5%;
-    width: 100%;
-    box-sizing: border-box
-    
+body {
+    margin: 0;
+    padding: 0;
+}
 
-;}
+header {
+    background-color: #0A316C;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 15px 5%;
+    width: 100%;
+    box-sizing: border-box;
+}
 
 header nav {
     display: flex;
     align-items: center;
+    margin-left: 5vw;
     gap: 2vw;
-    max-width: 70%;
 }
 
 header nav a {
     color: #0A316C;
-    background-color:#ffffff ;
-    padding : 10px 15px;
-    display : inline-flex;
+    background-color: #ffffff;
+    padding: 10px 6vw;
+    display: inline-flex;
     align-items: center;
     text-decoration: none;
     border-radius: 5px;
+    white-space: nowrap;
+    transition: 0.3s;
 }
 
 header nav a:hover {
     background-color: #0A316C;
     color: #ffffff;
+    outline: 1px solid #ffffff;
 }
 
 .logo {
@@ -45,5 +51,6 @@ header nav a:hover {
 }
 
 .current {
+    background-color: #d2cece;
     font-weight: bold;
 }
