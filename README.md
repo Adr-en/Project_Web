@@ -2,13 +2,14 @@
 
 
 
-Content -> L'efrei quoi
+Content -> Efrei's inofrmatics department
 
 Pages : 
 
   a. Home, which will serve as the index page (Introduction to the EFREI Computer Science Department, carousel, etc.).
   b. Courses and training programs.
   c. Faculty.
-  d. Contact/About Us.
-  e. Any other relevant proposals will be encouraged and rewarded.
+  d. About Us.
+  
+  e. Additional features may be implemented
 
