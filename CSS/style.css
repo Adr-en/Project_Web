@@ -1,17 +1,49 @@
 html {
     font-family: Arial, sans-serif;
-    background-color: #57894a;
+    background-color: #d2cece;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #4b5c57;
-    color: white;
-    padding: 1em;
-    text-align: center;
+    background-color: #0A316C ;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding:10px, 5%;
+    width: 100%;
+    box-sizing: border-box
+    
 
 ;}
+
+header nav {
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+    max-width: 70%;
+}
+
+header nav a {
+    color: #0A316C;
+    background-color:#ffffff ;
+    padding : 10px 15px;
+    display : inline-flex;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+header nav a:hover {
+    background-color: #0A316C;
+    color: #ffffff;
+}
+
+.logo {
+    height: 50px;
+    width: auto;
+}
+
+.current {
+    font-weight: bold;
+}
