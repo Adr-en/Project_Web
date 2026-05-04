@@ -147,3 +147,33 @@ button {
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
+
+button:hover {
+    background-color: #144ea5;
+}
+
+.columnn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.courses img {
+    width: 70%;
+    height: 10%;
+
+}
+
+.courses h2 {
+    color: #1717c0;
+    margin : 5px;
+    justify-content: center;
+    text-align: center;
+}
+
+.courses p {
+    margin : 5px;
+    text-align: center;
+}
+
