@@ -97,7 +97,9 @@ div {
 }
 
 
-.professor-image {
+
+
+.faculty-image {
     width: 20vw;
     height: auto;
     border-radius: 5px;
@@ -136,4 +138,90 @@ body > p{
 
 section h2{
     color :#144ea5;
+}
+
+h2{
+    text-align: center;
+}
+
+#about_us {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    background-color: white;
+    border : None;
+    border-radius: None;
+
+}
+
+#img_about_us{
+    width : 90%;
+    height : auto;
+
+}
+
+
+#chat_call_button{
+       position: fixed;
+        bottom: 20px; /* Distance du bas */
+        right: 20px;  /* Distance de la droite */
+        z-index: 1000; /* Pour qu'il reste au-dessus des autres éléments */
+
+        /* Style visuel */
+        width: 15%;
+        height: 6%;
+        border-radius: 5px;
+        background-color:#144ea5; /* Bleu par défaut */
+        color: white;
+        border: none;
+        
+        /* Centrage de l'icône */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 75%;
+        
+        /* Transition pour l'effet de survol */
+        transition: transform 0.3s ease, background-color 0.3s ease;
+    }
+
+    #chat_call_button:hover {
+        transform: scale(1.1); /* S'agrandit légèrement */
+        
+    }
+
+
+
+#chatbot-window {
+    position: fixed;
+    bottom: 90px; /* Positionnée au-dessus du bouton (60px + 30px de marge) */
+    right: 20px;
+    width: 25%;
+    height: 60%;
+    background-color: white;
+    border-radius: 15px;
+    border-color: #000000;
+    display: none; /* Caché par défaut */
+    flex-direction: column;
+    overflow: hidden;
+    z-index: 1000;
+}
+
+/* Classe qui sera ajoutée via JavaScript */
+#chatbot-window.active {
+    display: flex;
+}
+
+#chat-header {
+    background-color: #007bff;
+    color: white;
+    padding: 15px;
+    font-family: sans-serif;
+}
+
+#chat-body {
+    padding: 20px;
+    flex-grow: 1;
+    font-family: sans-serif;
 }
