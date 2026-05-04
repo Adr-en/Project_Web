@@ -140,7 +140,6 @@ section h2{
     color :#144ea5;
 }
 
-<<<<<<< HEAD
 h2{
     text-align: center;
 }
@@ -226,7 +225,6 @@ h2{
     flex-grow: 1;
     font-family: sans-serif;
 }
-=======
 button {
     background-color: #0A316C;
     color: #ffffff;
@@ -235,6 +233,7 @@ button {
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    align-self: center;
 }
 
 button:hover {
@@ -244,26 +243,47 @@ button:hover {
 .columnn {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: flex-start; /* Aligne le texte à gauche */
+    text-align: left;
+    flex: 1; /* Force le texte à prendre l'espace restant sans pousser */
+}
+
+.courses {
+    padding: 5%; /* Réduit un peu pour laisser respirer */
+    margin: 5% auto;
+    max-width: 900px; /* Optionnel : évite que la carte soit trop immense sur PC */
+    display: flex;
+    flex-direction: column;
     align-items: center;
 }
 
 .courses img {
-    width: 70%;
-    height: 10%;
-
+    width: 50%;
+    height: auto;
+    flex-shrink: 0; /* Empêche l'image de s'écraser */
 }
 
-.courses h2 {
-    color: #1717c0;
-    margin : 5px;
-    justify-content: center;
-    text-align: center;
+.courses h2, .courses p {
+    text-align: center; /* Aligné avec .columnn */
+    margin: 5px 0;    /* On simplifie les marges */
+    width: 100%;      /* S'assure que le texte reste dans son bloc */
 }
 
-.courses p {
-    margin : 5px;
-    text-align: center;
+
+.courses > div {
+    width: 100%;
+    max-width: 100%;  /* Interdiction de dépasser */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
 }
 
->>>>>>> 2cf81f75c8da6af81492645c8e19b6addfa2508d
+
+
+* {
+    box-sizing: border-box;
+}
+
