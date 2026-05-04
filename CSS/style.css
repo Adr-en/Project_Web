@@ -140,6 +140,7 @@ section h2{
     color :#144ea5;
 }
 
+<<<<<<< HEAD
 h2{
     text-align: center;
 }
@@ -225,3 +226,44 @@ h2{
     flex-grow: 1;
     font-family: sans-serif;
 }
+=======
+button {
+    background-color: #0A316C;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #144ea5;
+}
+
+.columnn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.courses img {
+    width: 70%;
+    height: 10%;
+
+}
+
+.courses h2 {
+    color: #1717c0;
+    margin : 5px;
+    justify-content: center;
+    text-align: center;
+}
+
+.courses p {
+    margin : 5px;
+    text-align: center;
+}
+
+>>>>>>> 2cf81f75c8da6af81492645c8e19b6addfa2508d
