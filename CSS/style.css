@@ -1,6 +1,6 @@
 html {
     font-family: Arial, sans-serif;
-    background-color: #d2cece;
+    background-color: #ffffff;
     margin: 0;
     padding: 0;
 }
@@ -15,9 +15,15 @@ header {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    padding: 15px 5%;
-    width: 100%;
+    padding: 15px 3%;
     box-sizing: border-box;
+}
+
+header .logo {
+    margin-right: 1vw;
+    margin-left: 1vw;
+    width: 1 vw;
+    height: auto;
 }
 
 header nav {
@@ -25,18 +31,19 @@ header nav {
     align-items: center;
     margin-left: 5vw;
     gap: 2vw;
+    flex-wrap: wrap;
 }
 
 header nav a {
     color: #0A316C;
     background-color: #ffffff;
-    padding: 10px 6vw;
+    padding: 10px 5vw;
     display: inline-flex;
     align-items: center;
-    text-decoration: none;
     border-radius: 5px;
-    white-space: nowrap;
-    transition: 0.3s;
+    transition: 0,3s;
+    text-decoration: none;
+
 }
 
 header nav a:hover {
@@ -46,11 +53,79 @@ header nav a:hover {
 }
 
 .logo {
-    height: 50px;
-    width: auto;
+    width: 150px;
+    height: auto;
+    margin : 0;
+    padding : 0;
+    
 }
 
 .current {
-    background-color: #d2cece;
+    background-color: #ffffff;
     font-weight: bold;
+    text-decoration: underline;
+}
+
+
+
+p {
+    margin: 10px;
+    padding: 10px;
+    display:;
+    flex-direction: column;
+}
+
+
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+
+    border : solid 2px #000000;
+    border-radius: 15px;
+    
+}
+
+div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.professor-image {
+    width: 20vw;
+    height: auto;
+    border-radius: 5px;
+    border: solid 2px #000000;
+
+    
+    
+    
+}
+
+
+
+
+
+footer {
+    background-color: #0A316C;
+    color: #ffffff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+    width: 100%;
+    bottom: 0;
+}
+
+footer a {
+    color: #cfc9c9;
+    margin-top: 10px ;
 }
