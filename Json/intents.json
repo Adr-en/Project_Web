@@ -1,0 +1,24 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hello", "hi", "bonjour", "salut", "coucou"],
+      "responses": ["Bonjour ! Comment puis-je vous aider ?", "Salut ! En quoi puis-je t'aider ?"]
+    },
+    {
+      "tag": "courses",
+      "patterns": ["formation", "cours", "classes", "courses", "etudes"],
+      "responses": ["Nos formations sont listées dans la page 'Courses and Training'."]
+    },
+    {
+      "tag": "contact",
+      "patterns": ["contact", "linkedin", "joindre", "écrire"],
+      "responses": ["Vous pouvez nous contacter via le lien LinkedIn dans le footer."]
+    },
+    {
+      "tag": "about",
+      "patterns": ["qui", "equipe", "team", "about", "propos"],
+      "responses": ["Nous sommes une équipe d'étudiants de l'Efrei. Tu peux voir nos profils sur cette page !"]
+    }
+  ]
+}

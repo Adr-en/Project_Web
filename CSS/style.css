@@ -41,7 +41,7 @@ header nav a {
     display: inline-flex;
     align-items: center;
     border-radius: 5px;
-    transition: 0,3s;
+    transition: 0.3s;
     text-decoration: none;
 
 }
@@ -70,7 +70,7 @@ header nav a:hover {
 
 p {
     margin: 10px;
-    padding: 10px;
+    padding: 2%;
     flex-direction: column;
 }
 
@@ -78,7 +78,7 @@ p {
 
 section {
     margin: 20px;
-    padding: 50px;
+    padding: 3%;
     background-color: #f0f0f0;
     display: flex;
     flex-direction: column;
@@ -94,6 +94,7 @@ div {
     justify-content: space-between;
     align-items: center;
     gap: 10px;
+    
 }
 
 
@@ -130,6 +131,7 @@ footer a {
 
 h1 {
     text-align: center;
+    font-weight: bold;
 }
 
 body > p{
@@ -140,7 +142,6 @@ section h2{
     color :#144ea5;
 }
 
-<<<<<<< HEAD
 h2{
     text-align: center;
 }
@@ -159,6 +160,8 @@ h2{
 #img_about_us{
     width : 90%;
     height : auto;
+  
+    padding:5%;
 
 }
 
@@ -187,8 +190,8 @@ h2{
         transition: transform 0.3s ease, background-color 0.3s ease;
     }
 
-    #chat_call_button:hover {
-        transform: scale(1.1); /* S'agrandit légèrement */
+#chat_call_button:hover {
+    transform: scale(1.1); /* S'agrandit légèrement */
         
     }
 
@@ -198,7 +201,7 @@ h2{
     position: fixed;
     bottom: 90px; /* Positionnée au-dessus du bouton (60px + 30px de marge) */
     right: 20px;
-    width: 25%;
+    width: 40%;
     height: 60%;
     background-color: white;
     border-radius: 15px;
@@ -206,6 +209,7 @@ h2{
     display: none; /* Caché par défaut */
     flex-direction: column;
     overflow: hidden;
+    
     z-index: 1000;
 }
 
@@ -217,16 +221,28 @@ h2{
 #chat-header {
     background-color: #007bff;
     color: white;
-    padding: 15px;
-    font-family: sans-serif;
+    padding : 10px;
+    justify-content: center;
+    width: 100%;
 }
 
-#chat-body {
-    padding: 20px;
-    flex-grow: 1;
-    font-family: sans-serif;
+#chat-messages {
+    flex-grow: 1; /* Takes all remaining space */
+    padding: 15px;
+    overflow-y: auto; /* Scroll if many messages */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
-=======
+
+
+#chat-footer {
+    display: flex;
+    padding: 10px;
+    border-top: 1px solid #eee;
+    background: #f9f9f9;
+}
+
 button {
     background-color: #0A316C;
     color: #ffffff;
@@ -234,12 +250,23 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    
 }
 
-button:hover {
-    background-color: #144ea5;
+
+
+
+#chatbox_input {
+    flex-grow: 1;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-right: 5px;
 }
+
+.bot-msg { background: #e9e9eb; padding: 8px; border-radius: 10px; align-self: flex-start; }
+.user-msg { background: #0A316C; color: white; padding: 8px; border-radius: 10px; align-self: flex-end; }
+
 
 .columnn {
     display: flex;
@@ -266,4 +293,3 @@ button:hover {
     text-align: center;
 }
 
->>>>>>> 2cf81f75c8da6af81492645c8e19b6addfa2508d

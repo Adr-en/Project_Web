@@ -6,7 +6,7 @@
 
     <meta charset="UTF-8">
     <link rel="stylesheet" href="../CSS/style.css">
-    
+    <script src="../Js/script.js" defer></script>
     <title>About us</title>
 
 </head>
@@ -27,48 +27,49 @@
     </header>
 
     <h1> About Us </h1>
-    <p>skibidi tajine lopotichat</p>
+    <p>As a team of three debutant developpers we made this website to provide a simple and effective way to access information about our institution and show our abilities in creating a website.</p>
 
 
 
     
-    
-
-        <main>
-            
-            <section id = about_us>
-                <section>
-                        <img src="/Img/Adrien.jpeg" id = "img_about_us">
-                        <p>Adrien de Chavagnac :<br> Contributed to a b c and d</p>
-                </section>
-
-
-                <section>
-                        <img src="/Img/Raphaël.jpeg" id = "img_about_us">
-                        <p>Raphaël Freynet--Serre :<br> Contributed to a b c and d</p>
-                </section>
-                
-                <section>
-                        <img src="/Img/Camille.jpeg" id = "img_about_us">
-                        <p>Camille Lubrano Lavaderci :<br> Contributed to </p>           
-                </section>
+    <main>
+        
+        <section id = about_us>
+            <section>
+                    <img src="/Img/Adrien.jpeg" id = "img_about_us">
+                    <p><strong>Adrien de Chavagnac</strong> :<br> Contributed to make the foundation of the website ,a part of the moke up and the Faculty and about_us page. </p>
             </section>
 
+            <section>
+                    <img src="/Img/Raphaël.jpeg" id = "img_about_us">
+                    <p><strong>Raphaël Freynet--Serre</strong> :<br> Contributed to make the majority of the moke up as well as the Courses and Training page and subpages. </p>
+            </section>
+            
+            <section>
+                    <img src="/Img/Camille.jpeg" id = "img_about_us">
+                    <p><strong>Camille Lubrano Lavaderci</strong> :<br> </p>           
+            </section>
+        </section>
 
 
-            <div id="chatbot-window">
-                <div id="chat-header">
-                    <h3>Mon Assistant chatbot</h3>
-                </div>
-                <div id="chat-body">
-                    <p>Bonjour ! Comment puis-je vous aider ?</p>
-                </div>
+<!---------------------------------------------Chatbot-code ---------------------------------------------->        <div id="chatbot-window">
+            <div id="chat-header">
+                <h3>My chatbot assistant</h3>
             </div>
+            <!-- New wrapper for messages only -->
+            <div id="chat-messages">
+                <p class="bot-msg">Bonjour ! Comment puis-je vous aider ?</p>
+            </div>
+            <!-- Input area moved to its own footer container -->
+            <div id="chat-footer">
+                <input type="text" id="chatbox_input" placeholder="Posez votre question...">
+                <button id="send_button">Send</button>
+            </div>
+        </div>
 
-            <button class = "chat_button" id="chat_call_button", type="button"> Do you need help ?</button>
-            <script src="../Js/script.js"></script>
+    <button id="chat_call_button" type="button">Do you need help ?</button>
 
-        </main>
+    </main>
 
 
 
