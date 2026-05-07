@@ -317,6 +317,21 @@ button {
 }
 
 .social-icon {
-  width: 48px;  /* Change this to your desired width */
-  height: auto;  /* This keeps the aspect ratio correct */
+  width: 48px; 
+  height: auto;  
 }
+
+.social-links {
+  display: flex;
+  justify-content: center; 
+  gap: 100px;            
+}
+
+.social-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: #000000;
+}
+
