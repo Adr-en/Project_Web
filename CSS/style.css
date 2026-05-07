@@ -316,3 +316,7 @@ button {
     box-sizing: border-box;
 }
 
+.social-icon {
+  width: 48px;  /* Change this to your desired width */
+  height: auto;  /* This keeps the aspect ratio correct */
+}
