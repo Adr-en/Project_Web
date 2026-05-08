@@ -52,6 +52,7 @@ header nav a:hover {
     outline: 1px solid #ffffff;
 }
 
+/*Pas sûr de l'utilité de cette ligne*/
 .logo {
     width: 150px;
     height: auto;
@@ -67,17 +68,8 @@ header nav a:hover {
 }
 
 
-
-p {
-    margin: 10px;
-    padding: 2%;
-    flex-direction: column;
-}
-
-
-
 section {
-    margin: 20px;
+    margin: 2% 6% 2% 6%;
     padding: 3%;
     background-color: #f0f0f0;
     display: flex;
@@ -93,15 +85,37 @@ div {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    gap: 10px;
+    gap: 1vw;
     
 }
 
 
+h3 {
+    font-size: min(2vw,25px);
+    background-color: #144ea5;
+    margin: 0;
+    padding: 0;
+}
 
+#img_faculty {
+    width: 8%;
+    height: auto;
+    margin : 0 -0.5em 0 0.5em;
+}
+
+#img_faculty_little{
+    width: 15%;
+    height: auto;
+    margin : 0 -0.5em 0 0.5em;
+}
+.little_icon {
+    width: 20%;
+    height: auto;
+    margin : 0 -0.5em 0 0.5em;
+}
 
 .faculty-image {
-    width: 20vw;
+    width: 18vw;
     height: auto;
     border-radius: 5px;
     border: solid 2px #000000;
@@ -132,11 +146,25 @@ footer a {
 h1 {
     text-align: center;
     font-weight: bold;
+    font-size: max(5vw,25px);
 }
 
-body > p{
+
+p{
+    margin: 10px;
+    padding: 2%;
+    flex-direction: column;
+    font-size: max(1.5vw,10px);
+}
+
+body > p {
+    margin: 10px;
+    padding: 2%;
+    flex-direction: column;
+    font-size: max(1.5vw,10px);
     text-align: center;
 }
+
 
 section h2{
     color :#144ea5;
@@ -144,6 +172,7 @@ section h2{
 
 h2{
     text-align: center;
+    font-size: max(3vw,23px);
 }
 
 #about_us {

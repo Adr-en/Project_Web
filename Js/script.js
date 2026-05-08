@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function getBotResponse(userText) {
         const message = userText.toLowerCase();
-        let finalResponse = "Désolé, je n'ai pas compris. Peux-tu reformuler ?";
+        let finalResponse = "I'm sorry I don't think i can help you about that. Try asking about our courses, our faculty or even about us !";
 
         for (let intent of botIntents) {
             // Check if ANY pattern word is inside the user's message

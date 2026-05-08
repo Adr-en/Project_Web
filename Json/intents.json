@@ -3,22 +3,32 @@
     {
       "tag": "greeting",
       "patterns": ["hello", "hi", "bonjour", "salut", "coucou"],
-      "responses": ["Bonjour ! Comment puis-je vous aider ?", "Salut ! En quoi puis-je t'aider ?"]
+      "responses": ["Hi! How can I help you today?", "Hello! May I help you with something ?", "Hey there! Need any information?"]
     },
     {
       "tag": "courses",
       "patterns": ["formation", "cours", "classes", "courses", "etudes"],
-      "responses": ["Nos formations sont listées dans la page 'Courses and Training'."]
+      "responses": ["Our courses are listed on the 'Courses and Training' page."]
     },
     {
       "tag": "contact",
       "patterns": ["contact", "linkedin", "joindre", "écrire"],
-      "responses": ["Vous pouvez nous contacter via le lien LinkedIn dans le footer."]
+      "responses": ["You can contact us via the LinkedIn link in the footer or learn more in the about us section."]
     },
     {
       "tag": "about",
       "patterns": ["qui", "equipe", "team", "about", "propos"],
-      "responses": ["Nous sommes une équipe d'étudiants de l'Efrei. Tu peux voir nos profils sur cette page !"]
+      "responses": ["We are a team of students from Efrei. You can see our profiles on the dedicated 'About Us' page!"]
+    }
+    {
+      "tag": "faculty",
+      "patterns": ["professeurs", "enseignants", "faculty", "staff"],
+      "responses": ["Our faculty members are listed on the 'Faculty' page. Feel free to check it out! Do you want to have more information about one of them ?"]
+    }
+
+    {"tag": "goodbye",
+      "patterns": ["bye", "goodbye", "see you", "au revoir"],
+      "responses": ["Goodbye! Have a great day!", "See you later!"]
     }
   ]
 }
