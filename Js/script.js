@@ -7,8 +7,8 @@ document.addEventListener('DOMContentLoaded', () => {
     
     let botIntents = [];
 
-    // 1. Charger les réponses
-    fetch('../Json/intents.json') // Ensure the path to your JSON is correct
+    
+    fetch('../Json/intents.json') 
         .then(response => response.json())
         .then(data => {
             botIntents = data.intents;
@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    // Handle both Enter key and Button click
+    
     input.addEventListener('keypress', (e) => { if (e.key === 'Enter') handleUserInput(); });
     sendBtn.addEventListener('click', handleUserInput);
 });
