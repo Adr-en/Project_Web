@@ -19,12 +19,12 @@
       "tag": "about",
       "patterns": ["qui", "equipe", "team", "about", "propos"],
       "responses": ["We are a team of students from Efrei. You can see our profiles on the dedicated 'About Us' page!"]
-    }
+    },
     {
       "tag": "faculty",
       "patterns": ["professeurs", "enseignants", "faculty", "staff"],
       "responses": ["Our faculty members are listed on the 'Faculty' page. Feel free to check it out! Do you want to have more information about one of them ?"]
-    }
+    },
 
     {"tag": "goodbye",
       "patterns": ["bye", "goodbye", "see you", "au revoir"],
