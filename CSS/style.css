@@ -483,3 +483,10 @@ button {
     flex-direction: column;
     font-style: italic;
 }
+
+.welcome-photo {
+    width: 100%; 
+    height: 300px; 
+    object-fit: cover; 
+    margin-bottom: 20px; 
+}
