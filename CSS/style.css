@@ -52,7 +52,6 @@ header nav a:hover {
     outline: 1px solid #ffffff;
 }
 
-/*Pas sûr de l'utilité de cette ligne*/
 .logo {
     width: 150px;
     height: auto;
@@ -197,30 +196,24 @@ h2{
 
 #chat_call_button{
        position: fixed;
-        bottom: 20px; /* Distance du bas */
-        right: 20px;  /* Distance de la droite */
-        z-index: 1000; /* Pour qu'il reste au-dessus des autres éléments */
-
-        /* Style visuel */
+        bottom: 20px;
+        right: 20px;
+        z-index: 1000;
         width: 15%;
         height: 6%;
         border-radius: 5px;
-        background-color:#144ea5; /* Bleu par défaut */
+        background-color:#144ea5;
         color: white;
         border: none;
-        
-        /* Centrage de l'icône */
         display: flex;
         align-items: center;
         justify-content: center;
         font-size: 75%;
-        
-        /* Transition pour l'effet de survol */
         transition: transform 0.3s ease, background-color 0.3s ease;
     }
 
 #chat_call_button:hover {
-    transform: scale(1.1); /* S'agrandit légèrement */
+    transform: scale(1.1);
         
     }
 
@@ -228,21 +221,20 @@ h2{
 
 #chatbot-window {
     position: fixed;
-    bottom: 90px; /* Positionnée au-dessus du bouton (60px + 30px de marge) */
+    bottom: 90px;
     right: 20px;
     width: 40%;
     height: 60%;
     background-color: white;
     border-radius: 15px;
     border-color: #000000;
-    display: none; /* Caché par défaut */
+    display: none;
     flex-direction: column;
     overflow: hidden;
     
     z-index: 1000;
 }
 
-/* Classe qui sera ajoutée via JavaScript */
 #chatbot-window.active {
     display: flex;
 }
@@ -256,9 +248,9 @@ h2{
 }
 
 #chat-messages {
-    flex-grow: 1; /* Takes all remaining space */
+    flex-grow: 1; 
     padding: 15px;
-    overflow-y: auto; /* Scroll if many messages */
+    overflow-y: auto;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -302,37 +294,37 @@ button {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start; /* Aligne le texte à gauche */
+    align-items: flex-start; 
     text-align: left;
-    flex: 1; /* Force le texte à prendre l'espace restant sans pousser */
+    flex: 1; 
 }
 
 .courses {
-    padding: 5%; /* Réduit un peu pour laisser respirer */
+    padding: 5%;
     margin: 5% auto;
-    max-width: 90%;  /* Optionnel : évite que la carte soit trop immense sur PC */
+    max-width: 90%; 
     display: flex;
     flex-direction: column;
     align-items: center;
-    flex-wrap: wrap; /* Permet de passer à la ligne sur mobile */
+    flex-wrap: wrap; 
 }
 
 .courses img {
     width: 50%;
     height: auto;
-    flex-shrink: 0; /* Empêche l'image de s'écraser */
+    flex-shrink: 0; 
 }
 
 .courses h2, .courses p {
-    text-align: center; /* Aligné avec .columnn */
-    margin: 5px 0;    /* On simplifie les marges */
-    width: 100%;      /* S'assure que le texte reste dans son bloc */
+    text-align: center;
+    margin: 5px 0;  
+    width: 100%;
 }
 
 
 .courses > div {
     width: 100%;
-    max-width: 100%;  /* Interdiction de dépasser */
+    max-width: 100%;  
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -392,7 +384,7 @@ button {
     text-align: left;
 }
 
-/* Partie Reseaux sociaux */
+/* Part Reseaux sociaux */
 
 .social-icon {
   width: 48px; 
@@ -424,7 +416,8 @@ button {
     padding: 20px;
 }
 
-/* Style des cartes */
+/* Subpages style */
+
 .subpage {
     background-color: #f4f4f4;
     border: 2px solid #2c3e50;
